@@ -45,21 +45,6 @@ export const HeroSection = memo(() => {
                   className="w-full h-full object-cover"
                   priority
                 />
-                
-                {/* Floating decoration */}
-                <motion.div
-                  animate={{ 
-                    rotate: 360,
-                    scale: [1, 1.1, 1],
-                  }}
-                  transition={{ 
-                    rotate: { duration: 20, repeat: Infinity, ease: "linear" },
-                    scale: { duration: 2, repeat: Infinity, ease: "easeInOut" }
-                  }}
-                  className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg"
-                >
-                  <span className="text-2xl">💻</span>
-                </motion.div>
               </div>
             </DirectionAwareHover>
           </MotionWrapper>

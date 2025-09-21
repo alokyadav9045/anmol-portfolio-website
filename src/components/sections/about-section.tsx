@@ -119,22 +119,6 @@ export const AboutSection = memo(() => {
               {profileImage}
             </div>
           </DirectionAwareHover>
-
-          <motion.div
-            animate={{ 
-              rotate: 360,
-              scale: [1, 1.1, 1],
-            }}
-            transition={{ 
-              rotate: { duration: 20, repeat: Infinity, ease: "linear" },
-              scale: { duration: 2, repeat: Infinity, ease: "easeInOut" }
-            }}
-            className="bg-gray-800 w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center"
-          >
-            <div className="w-full h-full rounded-full bg-gradient-to-r from-purple-400 via-pink-400 to-orange-300 flex items-center justify-center">
-              <span className="text-2xl">💻</span>
-            </div>
-          </motion.div>
         </MotionWrapper>
 
         {/* Content - Second on mobile, second on desktop */}
