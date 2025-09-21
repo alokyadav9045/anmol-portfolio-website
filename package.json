@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "export": "next build && next export",
-    "deploy": "npm run build",
+    "build:static": "next build && next export",
+    "deploy:vercel": "npm run build",
     "preview": "npm run build && npm run start"
   },
   "dependencies": {

@@ -16,9 +16,9 @@ const nextConfig: NextConfig = {
     formats: ['image/webp', 'image/avif'],
   },
   
-  // Enable static exports for broader deployment options
-  output: 'export',
-  trailingSlash: true,
+  // Remove static export for Vercel deployment
+  // output: 'export',  // Only use this for static hosting like GitHub Pages
+  // trailingSlash: true,  // Only needed for static export
 };
 
 export default nextConfig;
