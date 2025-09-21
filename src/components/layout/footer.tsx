@@ -270,9 +270,9 @@ export function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-foreground/60">
-              <span>© {new Date().getFullYear()} Anmol Mishra. Crafted with</span>
+              <span>© {new Date().getFullYear()} Anmol Mishra </span>
               <Heart className="h-4 w-4 text-red-500 fill-current animate-pulse" />
-              <span>using Next.js, TypeScript & Framer Motion</span>
+              <span></span>
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-foreground/60">
